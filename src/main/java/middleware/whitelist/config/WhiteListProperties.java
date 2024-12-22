@@ -4,10 +4,10 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
  * Configuration properties for white-list settings.
- * It will read the property "bugstack.whitelist.users" from application.yml/properties,
+ * It will read the property "ritszg.whitelist.users" from application.yml/properties,
  * which typically stores comma-separated user accounts.
  */
-@ConfigurationProperties(prefix = "bugstack.whitelist")
+@ConfigurationProperties(prefix = "ritszg.whitelist")
 public class WhiteListProperties {
 
     /**
